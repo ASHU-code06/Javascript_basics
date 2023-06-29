@@ -1,6 +1,8 @@
 const name = 'Max';
 var age = 29;
+age = 30; // var can be changed or overwritten as here age is comming 30
 const hasHobbies = true;
+
 // hasHobbies = false; typeerror : assignment to constant variable 
 function summarizeUser(userName,userAge,userHasHobby){
     return(
